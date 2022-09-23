@@ -1,0 +1,85 @@
+header {
+	height: 110px;
+}
+
+.header-container {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+
+.logo-img {
+	padding-right: 25px;
+}
+
+.phone-number {
+	
+	margin: 0;
+	font-family: Muller;
+	font-weight: 700;
+	font-size: 22px;
+	color: #666666;
+}
+
+.LK {
+	color: #ce9f40;
+	margin-left: 540px;
+/*	background: url(../img/arrow.svg) left no-repeat;
+	background-size: 14px;*/
+}
+
+.arrow {
+	color: #ce9f40;
+	padding-right: 3px;
+}
+
+.navigation-container {
+	display: flex;
+	background-color: #fff;	
+	border-radius: 15px;
+}
+
+.nav-list {
+	display: flex;
+	align-items: center;
+	height: 70px;
+	margin-left: 21px;
+}
+
+.nav-item:not(:last-child) {
+	margin-right: 45px;
+}
+
+.nav-item {
+	font-size: 16px;
+	margin-left: 0;
+}
+
+.form-search {
+	position: relative;
+	height: 48px;
+	width: 355px;
+	margin-left: 124px;
+	margin-right: 21px;
+}
+
+.search {
+	height: 48px;
+	width: 355px;
+	align-items: center;
+	border-radius: 15px;
+	border: 0px;
+	margin-top: 11px;
+	padding-left: 21px;
+	background-color: #f1f1f1;
+}
+
+.btn-search {
+	position: absolute;
+	width: 22px;
+	height: 22px;
+	right: 20px;
+	top: 50%;
+	border: none;
+	background: url(../img/search.png) center no-repeat;
+}

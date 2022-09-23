@@ -1,0 +1,48 @@
+.services {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.service-item {
+	padding-top: 202px;
+	width: 572px;
+	background-color: #fff;
+	margin-top: 25px;
+	border-radius: 10px;
+}
+
+.service {
+	margin-left: 45px;
+	background: url(../img/ugol.svg) right no-repeat;
+	padding-right: 21px;
+	font-size: 22px;
+	font-family: Muller;
+	font-weight: 500;
+	color:var(--color);
+}
+
+.opisanie {
+	font-family: Muller;
+	font-weight: 400;
+	font-size: 16px;
+	margin: 19px 0px 45px 45px;
+	width: 394px;
+	line-height: 32px;
+}
+
+.service-item1 {
+	background: url(../img/exlusiv.jpg) top center no-repeat #fff;
+}
+
+.service-item2 {
+	background: url(../img/arenda.jpg) top center no-repeat #fff;
+}
+
+.service-item3 {
+	background: url(../img/sauna.jpg) top center no-repeat #fff;
+}
+
+.service-item4 {
+	background: url(../img/parking.jpg) top center no-repeat #fff;
+}

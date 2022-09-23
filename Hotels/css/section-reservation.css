@@ -1,0 +1,89 @@
+.section-reservation {
+	padding-top: 72px;
+}
+
+.container-reservation {
+	display: flex;
+	justify-content: space-between;
+}
+
+.reservation {
+	width: 518px;
+	height: 71px;
+	border-radius: 15px;
+	border: 0px;
+	padding-left: 21px;
+}
+
+.reservation-item:not(:nth-child(1)) {
+	padding-top: 24px;
+}
+
+.reservation-form {
+	display: flex;
+	flex-direction: column;
+}
+
+.button-reservation {
+	padding-top: 24px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.btn-Book-now {
+	height: 70px;
+	width: 159px;
+	background-color: var(--background-color);
+	border-radius: 15px;
+	border: 0px;
+	color: white;
+}
+
+.offers {
+	color: #ce9f40;
+	margin-left: 30px;
+}
+
+.offer {
+	margin-left: 6px;
+	color: #999999;
+}
+
+.lux {
+	height: 540px;
+	width: 595px;
+	background: url(../img/lux.png);
+}
+
+.categories {
+	display: flex;
+	justify-content: right;
+	align-items:  center;
+	padding-left: 45px;
+	margin-top: 35px;
+}
+
+.from {
+	color: #aca7a4;
+	font-size: 35px;
+	margin: 0;
+	margin-right: 45px;
+}
+
+.category {
+	padding-top: 225px;
+	margin: 45px 0px 0px 45px;
+	color: white;
+	font-size: 66px;
+	width: 321px;
+	font-family: Muller;
+	font-weight: 700;
+}
+
+.more {
+	background: url(../img/ugol.svg) right no-repeat;
+	font-size: 16px;
+	color: #e9bb5d;
+	padding-right: 15px;
+}

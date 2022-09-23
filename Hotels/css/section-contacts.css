@@ -1,0 +1,150 @@
+.section-contacts{
+	margin-top: 68px;
+	margin-bottom: 22px;
+}
+
+.contacts {
+	height: 620px;
+	width: 472px;
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 44px;
+}
+
+.contacts-form {
+	display: flex;
+	justify-content: space-between;
+}
+
+.contacts-table-section {
+	border-bottom: 1px solid #cccccc;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 27px;
+	padding-top: 27px;
+}
+
+.contacts-table-section:first-child{
+	padding-top: 0px;
+}
+
+/*.contacts-table-section:last-child {
+	margin-bottom: 71px;
+}*/
+
+.contacts-left {
+	font-family: Muller;
+	font-weight: 700;
+	font-size: 22px;
+	margin: 0;
+	min-width: 146px;
+	color: #666666;
+}
+
+.contacts-right {
+	margin: 0;
+	line-height: 24px;
+}
+
+.phone-contacts {
+	width: 236px;
+	color:var(--color);
+}
+
+.phone-contacts-item {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.contacs-email {
+	color:var(--color);
+}
+
+.schedule {
+	padding-right: 52px;
+}
+
+.btn-contacts {
+	border: 1px solid var(--color);
+	font-family: Muller;
+	font-weight: 700;
+	color: var(--color);
+	width: 214px;
+	height: 70px;
+	border-radius: 10px;
+	background-color: #fff;
+	margin-top: 45px;
+}
+
+.btn-contacts:hover {
+	transform: scale(1.2, 1.2);
+	transition: 300ms;
+}
+
+.btn-contacts:focus {
+	transform: scale(1.2, 1.2);
+	transition: 300ms;
+}
+
+.btn-contacts:active {
+	transform: scale(1.1, 1.1);
+	transition: 200ms;
+}
+
+
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.form-item:not(:last-child) {
+	margin-bottom: 22px;
+}
+
+.form-name, .form-tel, .form-text {
+	width: 340px;
+	height: 70px;
+	border-radius: 10px;
+	border: 0px;
+	padding-left: 21px;
+}
+
+.form-text {
+	width: 340px;
+	height: 110px;
+}
+
+.send-form {
+	width: 340px;
+	height: 70px;
+	border: 0px;
+	color: #fff;
+	background-color:var(--background-color);
+	border-radius: 10px;
+}
+
+.wrapper-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 133px 178px 83px 178px;
+}
+
+.h2-form {
+	margin-top: 0;
+	margin-left: 0;
+	margin-bottom: 46px;
+}
+
+.h2-contacts {
+	margin-top: 0;
+	margin-bottom: 32px;
+	margin-top: 0;
+}
+
+textarea {
+	resize: none;
+	padding-top: 16px;
+}

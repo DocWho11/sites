@@ -1,0 +1,92 @@
+.section-numbers {
+	padding-top: 68px;
+}
+
+.numbers {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;	
+}
+
+.number-item {
+	width: 373px;
+	height: 441px;
+	margin-top: 25px;
+	background-color: #fff;
+	border-radius: 15px;
+}
+
+.number {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	margin: 0px;
+	margin-right: 45px;
+	margin-top: 37px;	
+}
+
+.stars {
+	display: flex;
+	justify-content: space-between;
+	width: 96px;
+}
+
+.btn-numbers {
+	width: 100px;
+	height: 41px;
+	border-radius: 8px;
+	border: 1px solid var(--color);
+	background-color: #fff;
+	margin-left: 44px;
+	color: var(--color);
+	margin-bottom: 44px;	
+}
+
+.prise {
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-right: 36px;
+}
+
+.hotel {
+	font-family: Muller;
+	font-weight: 400;
+	font-size: 16px;
+	color: #5d5d5d;
+	margin: 16px 0px 16px 45px;
+}
+
+.country {
+	font-family: Muller;
+	font-weight: 400;
+	font-size: 16px;
+	color: #a9a9a9;	
+	margin-bottom: 20px;	
+}
+
+.all-otions {
+	background: url(../img/more.png);
+	width: 373px;
+	height: 100%;
+	padding: 30px;
+	display: flex;
+	width: 100%;
+	align-items: flex-end;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.more-options {
+	background: url(../img/ugol-white.svg) no-repeat center right;
+	padding-right: 23px;
+	color: white;
+}
+
+.more-options::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}

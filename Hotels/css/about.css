@@ -1,0 +1,13 @@
+.about {
+	padding-top: 68px;
+	margin-bottom: 68px;
+}
+
+.about-text {
+	font-family: Mullar;
+	font-weight: 400;
+	font-size: 16px;
+	width: 884px;
+	height: 175px;
+	line-height: 200%;
+}

@@ -1,0 +1,90 @@
+body {
+	background-color: #f1f1f1;
+	font-family: Muller;
+	font-weight: 400;
+}
+
+h2, p, h1{
+	margin-left: 44px;
+}
+
+h2 {
+	font-size: 40px;
+	font-family: Muller;
+	font-weight: 400;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: #cc9933;
+}
+
+a:not(.icons-item){
+	text-decoration: none;
+	color: #cc9933;
+	transition: 300ms;
+	border-bottom: 2px solid transparent;
+	border-top: 2px solid transparent;
+}
+
+button {
+	cursor: pointer;
+	transition: 300ms;
+}
+
+.container {
+	max-width: 1168px;
+	margin: 0 auto;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--color: #cc9933;
+	--background-color: #cc9933;
+}
+
+
+button:hover {
+	transform: scale(1.2, 1.2);	
+}
+
+button:focus {
+	transform: scale(1.2, 1.2);	
+}
+
+button:active {
+	transform: scale(1.1, 1.1);	
+}
+
+a:hover:not(.icons-item) {
+	border-bottom: solid 2px;
+}
+
+a:focus:not(.icons-item) {
+	border-top: solid 2px;
+}
+
+a:active:not(.icons-item) {
+	border-bottom: solid 2px;
+}
+
+.icons-item:hover {
+	transform: rotate(360deg);
+}
+
+.icons-item:focus {
+	transform: rotate(90deg);
+}
+
+.icons-item:active {
+	transform: rotate(390deg);
+}
