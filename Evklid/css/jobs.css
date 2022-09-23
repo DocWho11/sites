@@ -1,0 +1,129 @@
+.steps {
+	margin: 50px 0px 45px 0px;
+	display: flex;
+	align-items: center;
+  gap: 85px;
+}
+
+.steps-item {
+	transition: outline-color 300ms ease-in-out;
+  outline: 2px solid transparent;
+  outline-offset: 3px;
+	padding: 0;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	color: #333333;
+	background: none;
+}
+
+.steps-item:hover {
+	transition: 300ms;
+	color: #FF9900;
+}
+
+.steps-item:focus {
+	transition: 300ms;
+	outline-color: #FF9900;
+}
+
+.steps-item:active {
+	transition: 300ms;
+	color: #E1670E;
+}
+
+.tabs_item {
+  display: none;
+}
+
+.tabs_item--active {
+  display: block;
+  outline-color: #FF9900;
+}
+
+.tabs_one {
+	background: url(../img/Rectangle18.jpg) no-repeat right;
+	padding-right: 1014px;
+	height: 460px;
+}
+
+.tabs_two {
+	background: url(../img/Rectangle\ 19.jpg) no-repeat right;
+	padding-right: 1014px;
+	height: 460px;
+}
+
+.tabs_three {
+	background: url(../img/Rectangle\ 20.jpg) no-repeat right;
+	padding-right: 1014px;
+	height: 460px;
+}
+
+.tabs_four {
+	background: url(../img/Rectangle\ 21.jpg) no-repeat right;
+	padding-right: 1014px;
+	height: 460px;
+}
+
+.we-job-text {
+	margin-bottom: 50px;
+}
+
+.job-btn-left {
+	margin-right: 32px;
+	width: 175px;
+	height: 60px;
+	background-color: #FF9900;
+	font-size: 16px;
+	padding: 20px 38px;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+
+.job-btn-left:hover {
+	background: #F7B045;
+	transition: 300ms;
+	border: none;
+}
+
+.job-btn-left:focus {
+	transition: 300ms;
+	background: #F7B045;
+	border: none;
+}
+
+.job-btn-left:active {
+	transition: 300ms;
+	background: #E1670E;
+	border: none;
+}
+
+.job-btn-right {
+	width: 147px;
+	height: 60px;
+	padding: 20px 38px;
+	border: 2px solid #333333;
+	color: #333333;
+  background-color: transparent;
+}
+
+.job-btn-right:hover {
+	transition: 300ms;
+	background: #666666;
+  color: #FFFFFF;
+	border: 2px solid #666666;
+}
+
+.job-btn-right:focus {
+	transition: 300ms;
+	background: #666666;
+  color: #FFFFFF;
+	border: 2px solid #666666;
+}
+
+.job-btn-right:active {
+	transition: 300ms;
+	background: #000000;
+  color: #FFFFFF;
+	border: 2px solid #000000;
+}

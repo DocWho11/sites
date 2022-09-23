@@ -1,0 +1,163 @@
+footer {
+	background-color: #222222;
+}
+
+.wrapper {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+
+img.footer_logo {
+  margin-bottom: 10px;
+}
+
+.text-footer {
+	width: 363px;
+	height: 320px;
+	color: #CACACA;
+}
+
+.footer_nav_item {
+  outline: 2px solid transparent;
+  outline-offset: 3px;
+	color: #CACACA;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 36px;
+}
+
+.footer_nav_item:hover {
+	color: #FF9900;
+	transition: 300ms;
+}
+
+.footer_nav_item:focus {
+	outline-color:#FF9900;
+	transition: 300ms;
+}
+
+.footer_nav_item:active {
+	color: #E1670E;
+	transition: 300ms;
+}
+
+.social {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 83px;
+}
+
+.icons-item {
+  outline: 2px solid transparent;
+  outline-offset: 3px;
+	display: block;
+	width:60px;
+	height: 60px;
+	margin-right: 25px;
+	background: transparent center/cover no-repeat;
+}
+
+.icons-item:hover path {
+	transition: 300ms;
+	fill: #FF9900;
+}
+
+.icons-item:focus {
+	transition: 300ms;
+	outline-color:#FF9900;
+}
+
+.icons-item:active path {
+	transition: 300ms;
+	fill: #E1670E;
+}
+
+.application {
+	margin: 0px 236px 0px 350px;
+}
+
+.h3-form {
+	font-size: 48px;
+	color: #CACACA;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.button-form {
+	display: flex;
+	flex-direction: row;
+}
+
+.form-item {
+  margin-top: 25px;
+}
+
+.form-name, .form-mail {
+	width: 570px;
+	height: 60px;
+	background-color: #414141;
+	color: #CACACA;
+	padding-left: 24px;
+	border: none;
+	font-size: 16px;
+}
+
+.form-name:hover, .form-mail:hover, .form-text:hover {
+	background-color: #666666;
+}
+
+.form-name:focus, .form-mail:focus, .form-text:focus {
+	background: #666666;
+}
+
+.form-name:active, .form-mail:active, .form-text:active {
+	background: #666666;
+	color: #FFF;
+}
+
+.form-text {
+	width: 570px;
+	height: 150px;
+	background-color: #414141;
+	color: #CACACA;
+	padding-top: 14px;
+	padding-left: 24px;
+	margin: 0px;
+	border: none;
+	font-size: 16px;
+	line-height: 32px;
+}
+
+.send-form {
+	padding: 19px 38px;
+	background: #FF9900;
+	font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+	color: #FFF;
+  margin-right: 22px;
+}
+
+.button-form {
+	align-items: center;
+  margin-top: 26px;
+}
+
+.footer_label {
+	color: #CACACA;
+	font-size: 16px;
+	cursor: pointer;
+}

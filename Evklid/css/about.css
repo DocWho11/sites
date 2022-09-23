@@ -1,0 +1,97 @@
+.about_h2 {
+	line-height: 59px;
+  margin-bottom: 10px;
+}
+
+.about-text {
+	max-width: 1235px;
+  padding-bottom: 60px;
+}
+
+.about-li {
+	display: flex;
+}
+
+.about-left {
+	width: 868px;
+	height: 622px;
+	background: url(../img/Rectangle2.jpg) no-repeat center/cover;
+}
+
+.about-text-left {
+	height: 196px;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: relative;
+	top: 426px;
+  padding: 50px;
+}
+
+.about-text-left-btn {
+	color: #fff;
+	width: 454px;
+	height: 96px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 32px;
+}
+
+.about-btn {
+	padding: 13px 37px;
+	border: 3px solid #FF9900;
+}
+
+.about-btn:focus {
+	transition: 300ms;
+	background: #FF9900;
+}
+
+.about-btn:hover {
+	transition: 300ms;
+	background: #FF9900;
+}
+
+.about-btn:active {
+	background: #E1670E;
+	transition: 300ms;
+	border: none;
+}
+
+.about-right {
+	padding-left: 32px;
+}
+
+.about-right-top {
+	width: 870px;
+	height: 295px;
+	border: 1px solid #000;
+	align-items: center;
+  margin-bottom: 32px;
+}
+
+.about-text-top {
+	background: url(../img/cube.svg) no-repeat 77px 66px;
+	padding: 66px 140px 30px 316px;
+}
+
+.about-right-bottom {
+	width: 870px;
+	height: 295px;
+	border: 1px solid #000;
+	align-items: center;
+}
+
+.about-text-bottom {
+	background: url(../img/gear.svg) no-repeat 77px 66px;
+	padding: 66px 120px 30px 316px;
+}
+
+.about_heading {
+  margin-bottom: 7px;
+}
+
+.about_text_p {
+  max-width: 500px;
+}
